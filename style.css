@@ -20,7 +20,7 @@ body{
     color: var(--primary);
 }
 
-h1 {
+h3 {
     padding: 0;
     margin: 0;
 }
@@ -50,11 +50,6 @@ h1 {
     padding-top: 6vh;
     text-align: center;
 }
-
-nav {
-    text-align: center;
-}
-
 
 main {
     margin: auto;
