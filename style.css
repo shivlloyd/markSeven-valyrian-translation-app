@@ -36,9 +36,14 @@ body{
     z-index: 2;
     height: 100vh;
     width: 90%;
-    padding-top: 4vh;
+    /* padding-top: 6vh; */
     text-align: center;
 }
+
+nav {
+    text-align: center;
+}
+
 
 main {
     margin: auto;
@@ -48,11 +53,11 @@ main {
 
 textarea {
     background-color: rgba(0,0,0,0.4);
+    color: var(--primary);
     box-sizing: border-box;
     display: block;
     width: 100%;
     min-height: 20vh;
-    margin-top: 2rem;
     padding: 1rem;
     font-size: large;
     font-family: inherit;
@@ -60,7 +65,8 @@ textarea {
 }
 
 button {
-    background-color: var(--primary);
+    background-color: rgba(126, 0, 0, 0.6);
+    color: var(--primary);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
@@ -72,6 +78,7 @@ button {
 
 #output {
     box-sizing: border-box;
+    color: var(--primary);
     width: 100%;
     min-height: 20vh;
     max-height: 20vh;
@@ -86,6 +93,7 @@ footer {
     width: 100%;
     padding: 1rem;
     text-align: center;
+    font-size:larger;
 }
 
 footer p {
