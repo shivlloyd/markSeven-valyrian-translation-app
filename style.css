@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lora&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,6 +6,7 @@
 
 :root {
     --primary: #ffffff;
+    --red-shadow: 1px 1px 10px rgb(255, 0, 0), 1px 1px 10px rgb(255, 255, 255);
     --black: #7a7a7a;
     --width-break: 600px;
 }
@@ -13,27 +14,22 @@
 ::placeholder {
     color: rgb(255, 255, 255);
     opacity: 0.6;
-    font-size: small;
+    font-size: medium;
 }
 
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Game of Thrones';
-    font-size: small;
     color: var(--primary);
-}
-
-h2 {
-    padding: 0;
-    margin: 0;
-    font-size: xx-large;
+    font-family: 'Lora';
+    font-size:large ;
 }
 
 h3 {
     padding: 0;
     margin: 0;
-    font-size: large;
+    font-size: larger;
+    text-shadow:2px 2px 10px rgb(255, 0, 0), 2px 2px 10px rgb(0, 0, 0);
 }
 
 .background-image {
@@ -76,8 +72,8 @@ textarea {
     width: 100%;
     min-height: 20vh;
     padding: 1rem;
+    font-family: 'Lora';
     font-size: large;
-    font-family: inherit;
     border-radius: 2rem ;
 }
 
@@ -88,8 +84,7 @@ button {
     margin: 1rem 0rem;
     padding: 1rem 2rem;
     border-radius: 2rem;
-    font-family: 'Courgette';
-    font-family: 'Game of Thrones';
+    font-family: 'Lora';
     font-size: large;
     cursor: pointer;
 }
@@ -110,6 +105,8 @@ button:hover {
     padding: 2rem;
     border: 1px solid var(--black);
     border-radius: 2rem ;
+    font-size:large;
+    text-shadow: var(--red-shadow);
 }
 
 footer {
@@ -118,7 +115,7 @@ footer {
     width: 100%;
     padding: 1rem;
     text-align: center;
-    font-size:larger;
+    text-shadow: var(--red-shadow);
 }
 
 footer p {
