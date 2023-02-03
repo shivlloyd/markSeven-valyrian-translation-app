@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+
 * {
     box-sizing: border-box;
 }
@@ -11,18 +13,27 @@
 ::placeholder {
     color: rgb(255, 255, 255);
     opacity: 0.6;
-
+    font-size: small;
 }
 
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Game of Thrones';
+    font-size: small;
     color: var(--primary);
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    font-size: xx-large;
 }
 
 h3 {
     padding: 0;
     margin: 0;
+    font-size: large;
 }
 
 .background-image {
@@ -78,13 +89,21 @@ button {
     padding: 1rem 2rem;
     border-radius: 2rem;
     font-family: 'Courgette';
+    font-family: 'Game of Thrones';
     font-size: large;
     cursor: pointer;
 }
 
+button:hover {
+    background-color: rgba(126, 0, 0, 0.8);
+    color: var(--primary);
+}
+
 #output {
+    background-color: rgba(0,0,0,0.4);
     box-sizing: border-box;
     color: var(--primary);
+    text-align: left;
     width: 100%;
     min-height: 20vh;
     max-height: 20vh;
