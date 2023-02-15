@@ -1,4 +1,4 @@
-# MarkSeven Valyrian Translation App
+# Valyrian Translation App
 
 This repository contains the code for a Valyrian Translation App.
 
