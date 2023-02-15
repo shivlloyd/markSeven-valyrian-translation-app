@@ -30,7 +30,7 @@ To use the Valyrian Translation App:
 
 ### OR
 
-[Click here ](https://m7-valyrian-translate.netlify.app/)to see the project in action.
+[Click here ](https://m7-valyrian-translate.netlify.app/)to see the app in action.
 
 
 ## Credits
