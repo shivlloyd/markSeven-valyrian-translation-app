@@ -28,6 +28,11 @@ To use the Valyrian Translation App:
 3. Enter the English phrase or sentence you want to translate in the input field and click the "Translate To Valyrian" button.
 4. The translation will be displayed on the webpage.
 
+### OR
+
+[Click here ](https://m7-valyrian-translate.netlify.app/)to see the project in action.
+
+
 ## Credits
 
 The Valyrian Translation App was developed by [Shivam Kumar](https://github.com/shivlloyd) as part of the [MarkSeven project](https://github.com/shivlloyd/markSeven-project). The translation API is provided by [funtranslations.com](https://funtranslations.com/).
